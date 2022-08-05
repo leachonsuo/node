@@ -1,0 +1,44 @@
+var a = 10
+let b = 20
+const c = 30
+
+console.log(`${a},${b},${c}`)
+
+for(var i = 0 ; i < 10 ; i +=2){
+    console.log(i)
+}
+
+var i = 0
+while (i < 10){
+    console.log(i)
+    i += 1
+}
+
+var a = 100
+if(a > 100){
+    console.log("100 보다 크다")
+}
+else if(a < 100){
+    console.log("100보다 작다")
+}
+else{
+    console.log("100이랑 같다")
+}
+
+var a = [1,2,3,4]
+for(var i =  0 ; i < a.length ; i++){
+    console.log(a[i])
+}
+var list = [8,6,4]
+list.push(10)
+list.splice(2,0,"ce")
+console.log(list)
+list.pop()
+list.shift()
+console.log(list)
+
+function func(n,m){
+    return n + m;
+}
+var a = func(10,20)
+console.log(a)
